@@ -1,15 +1,23 @@
 {
-  "name": "eslint-custom-rule-example",
+  "name": "eslint-custom-plugin-enforce-foo-bar-tstahl",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ESLint plugin for enforce-foo-bar rule.",
+  "main": "eslint-plugin-example.js",
   "scripts": {
     "test": "node enforce-foo-bar.test.js"
   },
-  "keywords": [],
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^9.9.0"
+    "eslint": "^9.0.0",
+    "eslint-custom-plugin-enforce-foo-bar-tstahl": "^1.0.0"
   }
 }

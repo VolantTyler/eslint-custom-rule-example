@@ -1,6 +1,6 @@
 "use strict";
 
-const eslintPluginExample = require("./eslint-plugin-example");
+const eslintPluginExample = require("eslint-custom-plugin-enforce-foo-bar-tstahl");
 
 module.exports = [
     {
