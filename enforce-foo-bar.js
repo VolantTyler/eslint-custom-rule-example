@@ -25,7 +25,7 @@ module.exports = {
                              */
                             context.report({
                                 node,
-                                message: 'Value other than "bar" assigned to `const foo`. Unexpected value: {{ notBar }}.',
+                                message: 'Value other than "bar" assigned to const `foo`. Unexpected value: {{ notBar }}.',
                                 data: {
                                     notBar: node.init.value
                                 },
