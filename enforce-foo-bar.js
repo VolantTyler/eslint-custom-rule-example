@@ -11,7 +11,6 @@ module.exports = {
     },
     create(context) {
         return {
-            // TODO: add callback function(s)
             VariableDeclarator(node) {
                 if (node.parent.kind === "const") {
                     if (node.id.type === "Identifier" && node.id.name === "foo") {
